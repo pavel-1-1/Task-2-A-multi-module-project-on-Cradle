@@ -26,7 +26,7 @@ public class MyEntity {
 
     @Override
     public String toString() {
-        return new StringBuilder().append("MyEntitu{").append("id=").append(id).append(", name='").append('\'').
+        return new StringBuilder().append("MyEntitu{").append("id=").append(id).append(", name='").append(name).append('\'').
                 append('}').toString();
     }
 }
